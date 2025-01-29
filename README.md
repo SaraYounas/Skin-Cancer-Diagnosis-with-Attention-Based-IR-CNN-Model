@@ -13,35 +13,10 @@ High Computational resources are required to run theses notebooks due to large d
 
 
 ## Requirements
-Before running the code, install the necessary librarires
+Before running the code, install and import following:
 
-import os
-import glob
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import cv2
-import tensorflow as tf
-from keras.models import Sequential,Input,Model
-from keras.layers import Dense, Dropout, Flatten
-from keras.layers import Conv2D, MaxPooling2D, Activation,GlobalAveragePooling2D,Concatenate ,AveragePooling2D
-from keras.layers import BatchNormalization
-from keras.layers.advanced_activations import LeakyReLU
-from sklearn.metrics import confusion_matrix, classification_report
-from sklearn.model_selection import train_test_split
-from tensorflow import keras
-from keras import models, layers, regularizers
-from tensorflow.keras.utils import to_categorical
-from keras.layers import Dense, Input, Dropout, concatenate
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.utils import plot_model
-from keras import backend
-from keras.layers import Input, Conv2D, MaxPooling2D, GlobalAveragePooling2D, BatchNormalization
-from keras.layers import Dense, Dropout, Flatten, Activation, Concatenate, Lambda
-from keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
-from keras import regularizers, activations
-from sklearn.utils import shuffle
-from sklearn.metrics import classification_report, confusion_matrix, roc_curve, auc
+os, glob, numpy, pandas, matplotlib, cv2, tensorflow, Input,Model, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, Activation,GlobalAveragePooling2D,Concatenate ,AveragePooling2D, BatchNormalization, LeakyReLU
+, confusion_matrix, classification_report, train_test_split, keras, models, layers, regularizers, to_categorical, Dense, Input, Dropout, concatenate, Adam, plot_model, Input, Conv2D, MaxPooling2D, GlobalAveragePooling2D, BatchNormalization, Dense, Dropout, Flatten, Activation, Concatenate, Lambda, EarlyStopping, ReduceLROnPlateau, ModelCheckpoint, regularizers, activation, classification_report, confusion_matrix, roc_curve, auc
 
 
 ## Training Details
